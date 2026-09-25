@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-papel text-grafito antialiased; font-variant-numeric: tabular-nums; }
+.input { @apply w-full rounded-md border border-linea bg-white px-3 py-2 text-sm focus:border-tinta focus:outline-none focus:ring-2 focus:ring-tinta/15; }
+.label { @apply mb-1 block text-sm font-medium text-grafito; }
+.btn { @apply inline-flex items-center justify-center rounded-md bg-tinta px-4 py-2 text-sm font-medium text-white hover:bg-tinta/90 focus:outline-none focus-visible:ring-2 focus-visible:ring-tinta/40 disabled:opacity-50; }
+.btn-sec { @apply inline-flex items-center justify-center rounded-md border border-linea bg-white px-4 py-2 text-sm font-medium text-grafito hover:bg-papel; }
